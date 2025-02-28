@@ -196,3 +196,15 @@ body {
   background-color: rgba(225, 225, 225, .3);
   border: 1px solid #2B2A29;
 }
+
+@media (max-width: 1920px) {
+  .header{
+    padding-bottom: 50px;
+  }
+  .header__top{
+    padding-top: 30px;
+  }
+  .header__news-box{
+    margin-bottom: 20px;
+  }
+}
