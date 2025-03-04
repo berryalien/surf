@@ -340,9 +340,14 @@ body {
 
 }
 
-.accredited__item h5{
+.accredited__item h5 {
   font-size: 26px;
   font-weight: 700;
   max-width: 115px;
   text-align: center;
+}
+
+.site-images {
+  width: 100%;
+  margin-bottom: 150px;
 }
