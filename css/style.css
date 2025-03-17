@@ -479,49 +479,100 @@ body {
   gap: 40px;
 }
 
-@media (max-width: 992px){
-.header__news{
-  margin-top: 10px;
-  margin-bottom: 30px;
-  order: -1;
-}
-.header__content{
-  flex-direction: column;
+@media (max-width: 1500px) {
+  .about__img {
+    flex-basis: 50%;
+  }
+
+  .about__img img {
+    width: 100%;
+  }
 }
 
-.header__info-list{
-  max-width: 100%;
+@media (max-width: 1280px) {
+  .about__title {
+    margin-bottom: 20px;
+  }
+
+  .about__img {
+    align-self: flex-end;
+  }
+
+  .about__content {
+    flex-basis: 50%;
+  }
 }
 
-.header__info{
-  gap: 50px;
+@media (max-width: 992px) {
+  .header__news {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    order: -1;
+  }
+
+  .header__content {
+    flex-direction: column;
+  }
+
+  .header__info-list {
+    max-width: 100%;
+  }
+
+  .header__info {
+    gap: 50px;
+  }
+
+  .text {
+    padding: 75px 0;
+    font-size: 40px;
+  }
+
+  .about__inner {
+    flex-wrap: wrap;
+  }
+
+  .about__content {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .about__img {
+    flex-basis: 100%;
+  }
+
+  .about{
+    margin-bottom: 75px;
+  }
 }
 
-.text{
-  padding: 75px 0;
-  font-size: 40px;
-}
+@media (max-width:450px) {
 
-}
-
-@media (max-width:450px){
   .header__buttons-activities,
-  .header__buttons-book{
+  .header__buttons-book {
     font-size: 24px;
     width: 100%;
     text-align: center;
   }
 
-  .header__buttons{
+  .header__buttons {
     flex-wrap: wrap;
   }
-  
-  .header__info-item{
+
+  .header__info-item,
+  .about__item {
     font-size: 14px;
     padding: 8px 12px;
   }
 
-  .header__info-list{
+  .header__info-list {
     gap: 10px;
+  }
+
+  .about__title{
+    font-size: 44px;
+  }
+
+  .about__subtitle{
+    margin-bottom: 10px;
   }
 }
