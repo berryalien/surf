@@ -548,7 +548,7 @@ body {
   .about,
   .site-images,
   .activities,
-  .reviews{
+  .reviews {
     margin-bottom: 75px;
   }
 
@@ -586,6 +586,39 @@ body {
 @media (max-width:800px) {
   .activities__list {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer {
+    padding: 75px 0;
+  }
+
+  .footer__title {
+    font-size: 44px;
+  }
+
+  .footer__bottom {
+    flex-wrap: wrap;
+  }
+
+  .footer__info-list {
+    gap: 15px;
+  }
+}
+
+@media (max-width:570px) {
+  .footer__top {
+    flex-wrap: wrap-reverse;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .footer__title {
+    order: 1;
+  }
+
+  .footer__info-list{
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 
